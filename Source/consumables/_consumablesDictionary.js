@@ -13,11 +13,20 @@ const ROLL_TABLE = {
 }
 
 for (const file of [
+	"earthenpotion.js",
 	"explosionpotion.js",
+	"fierypotion.js",
 	"healthpotion.js",
+	"oblivionsalt.js",
+	"quickpepper.js",
+	"regenroot.js",
 	"repairkit.js",
 	"smokebomb.js",
-	"vitamins.js"
+	"stasisquartz.js",
+	"strengthspinach.js",
+	"vitamins.js",
+	"waterypotion.js",
+	"windypotion.js"
 ]) {
 	const consumable = require(`./${file}`);
 	CONSUMABLES[consumable.name] = consumable;

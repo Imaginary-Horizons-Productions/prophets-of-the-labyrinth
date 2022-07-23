@@ -1,6 +1,7 @@
 const EquipmentTemplate = require('../../Classes/EquipmentTemplate.js');
 const { removeModifier, addModifier } = require('../combatantDAO.js');
 
+//TODONOW convert to potion kit
 module.exports = new EquipmentTemplate("Watery Potion", 2, "*Apply @{mod1Stacks} @{mod1} to a Water element combatant, or @{mod2Stacks} @{mod2} to someone else*\nCritical Hit: @{mod1}/@{mod2} x@{critBonus}", "Water", effect, ["Earthen Potion", "Windy Potion"])
 	.setCategory("Trinket")
 	.setTargetingTags({ target: "single", team: "any" })

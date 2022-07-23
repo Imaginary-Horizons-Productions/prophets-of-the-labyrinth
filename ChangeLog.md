@@ -6,6 +6,15 @@
    3. Repair Kit
    4. Smoke Bomb
    5. Explosion Potion
+   6. Earthen Potion
+   7. Fiery Potion
+   8. Salt of Oblivion
+   9. Quick Pepper
+   10. Regen Root
+   11. Stasis Quartz
+   12. Strength Spinach
+   13. Watery Potion
+   14. Windy Potion
 - Reworked *Urgent* weapon variant: it now adds priority to the move
 - Renamed *Swift* weapon variant to *Accelerating*
 
